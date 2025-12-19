@@ -34,6 +34,6 @@ def preprocess_data(input_path, output_path):
 
 if __name__ == "__main__":
     preprocess_data(
-        "../housing_raw/housing.csv",
-        "housing_preprocessed.csv"
+        "housing_raw/housing.csv",
+        "preprocessing/housing_preprocessed.csv"
     )
